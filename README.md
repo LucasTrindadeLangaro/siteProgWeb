@@ -13,24 +13,24 @@ Este projeto apresenta um portal informativo sobre o Objetivo de Desenvolvimento
 ### Estrutura de Arquivos
 ```
 /
-|-- Assets/
-    ├── css/
-│       └── style.css           (Arquivo CSS principal)
-    └── img/
-        ├── logo.png            (Logo do projeto)
-        ├── banner.jpg          (Imagem principal)
-        ├── ods1-icone.png      (Ícone do ODS 1)
-        ├── mapa-brasil.png     (Mapa do Brasil)
-        └── outras-imagens...
-    ├── js/
-│       └── script.js           (JavaScript básico)
-|-- Pages
-    ├── index.html                  (Página inicial)
+├── index.html                      (Página inicial)
+├── assets/                         (Recursos do site)
+│   ├── css/                        (Arquivos de estilo)
+│   │   └── style.css               (Estilo principal)
+│   ├── js/                         (Scripts)
+│   │   └── script.js               (JavaScript básico)
+│   └── img/                        (Imagens)
+│       ├── logo.png                (Logo do projeto)
+│       ├── banner.jpg              (Imagem principal)
+│       ├── ods1-icone.png          (Ícone do ODS 1)
+│       ├── mapa-brasil.png         (Mapa do Brasil)
+│       └── outras-imagens...
+└── pages/                          (Páginas do site)
     ├── objetivo.html               (Sobre o objetivo e conceitos)
     ├── iniciativas.html            (Iniciativas já aplicadas)
     ├── projetos-futuros.html       (Projetos futuros)
     ├── mapa-regioes.html           (Regiões do Brasil com iniciativas)
-    ├── entidades.html              (Pessoas e entidades envolvidas)
+    └── entidades.html              (Pessoas e entidades envolvidas)
 ```
 
 ### Conteúdo por Página
