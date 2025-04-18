@@ -1,3 +1,16 @@
+:root {
+    --primary-color: #e5243b;
+    --primary-dark: #c31f33;
+    --primary-light: #f5a9b8;
+    --text-dark: #333333;
+    --text-light: #ffffff;
+    --background-light: #f5f5f5;
+    --background-dark: #2d2d2d;
+    --accent-color: #004d77;
+    --gray-light: #e0e0e0;
+    --gray-medium: #a0a0a0;
+}
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -7,27 +20,36 @@
 
 header{
     display:flex;
-    border: 10px solid #000;
+    padding: 15px 20px 0;
+    align-items: center;
+    justify-content: space-between; /* Isso vai separar o logo-container e o nav */
+    margin-bottom: 20px;
 }
 .logo-container{
     display: flex;
-    justify-content: left;
-    align-items: left;
-    height: 100px;
-    width: 600px;
+    align-items: center;
+   gap: 15px;
 }
 .logo{
-    margin-right: 15px;
+    height: 60px;
+    width: auto;
 }
 nav{
     margin-right: 20px;
+}
+.logo-container h1{
+    font-size: 1.5rem;
+    align-items:center ;
+    color: var(--primary-color);
 }
 .menu{
     display: flex;
     list-style: none;
 }
 .menu li{
+    display: inline;
     margin-left: 25px;
+    width: max-content
 }
 .menu a {
     color: var(--text-dark);
