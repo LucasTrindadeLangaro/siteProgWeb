@@ -1,83 +1,107 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projetos Futuros - Redução da Pobreza no Brasil</title>
-    <link rel="stylesheet" href="header.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            line-height: 1.6;
-            background-color: #f9f9f9;
-        }
-        .content {
-            margin: 40px;
-        }
-        h1, h2 {
-            color: darkred;
-        }
-        .highlight {
-            color: red;
-            font-weight: bold;
-        }
-        p {
-            margin-bottom: 20px;
-        }
-    </style>
+    <title>Projetos Futuros - Erradicação da Pobreza</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Início do cabeçalho -->
-    <header class="header">
-        <div class="container">
-            <a href="index.html" class="logo">Brasil <span>Sem Pobreza</span></a>
-            <nav>
-                <ul class="nav-menu">
-                    <li><a href="index.html">Planos de Combate</a></li>
-                    <li><a href="mapa.html">Mapa de Iniciativas</a></li>
-                    <li><a href="planopobreza.html" class="active">Projetos Futuros</a></li>
-                </ul>
-            </nav>
+    <header>
+        <div class="logo-container">
+            <img src="./ods1-logo.jpg" alt="Logo ODS 1" class="logo">
+            <h1>Erradicação da Pobreza</h1>
         </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="planocombate.html">Plano de combate</a></li>
+                <li><a href="planopobreza.html" class ="active">Projetos Futuros</a></li>
+                <li><a href="mapa.html">Mapa de Iniciativas</a></li>
+            </ul>
+        </nav>
     </header>
-    <!-- Fim do cabeçalho -->
 
-    <div class="content">
-        <h1>Projetos Futuros</h1>
-        <p>
-            Como reduzir a pobreza no Brasil, fazendo o país voltar a crescer de forma consistente e com diminuição das desigualdades? Um novo estudo do Banco Mundial e do Programa das Nações Unidas para o Desenvolvimento (Pnud) divulg os desafios do Brasil nos próximos 20 anos e traz propostas e reflexões sobre esse debate, em temas que vão da tributação à assistência social e emprego.
-        </p>
+    <main>
+        <section class="intro">
+            <div class="container">
+                <h2>Projetos Futuros</h2>
+                <p>
+                    Como reduzir a pobreza no Brasil, fazendo o país voltar a crescer de forma consistente e com diminuição das desigualdades? Um novo estudo do Banco Mundial e do Programa das Nações Unidas para o Desenvolvimento (Pnud) divulga os desafios do Brasil nos próximos 20 anos e traz propostas e reflexões sobre esse debate, em temas que vão da tributação à assistência social e emprego.
+                </p>
 
-        <h2>1. Consolidar programas de transferência para famílias trabalhadoras</h2>
-        <p>
-            O estudo propõe a <span class="highlight">unificação dos benefícios sociais</span>, como deduções no imposto de renda e o Bolsa Família,
-            criando uma <span class="highlight">transferência universal para cada criança</span> combinada com benefícios condicionais para famílias pobres.
-        </p>
+                <div class="project-section">
+                    <h3>1. Consolidar programas de transferência para famílias trabalhadoras</h3>
+                    <p>
+                        O estudo propõe a <span class="highlight">unificação dos benefícios sociais</span>, como deduções no imposto de renda e o Bolsa Família,
+                        criando uma <span class="highlight">transferência universal para cada criança</span> combinada com benefícios condicionais para famílias pobres.
+                    </p>
+                </div>
 
-        <h2>2. Expandir a inclusão econômica nas áreas rurais</h2>
-        <p>
-            Sugere-se a ampliação de <span class="highlight">programas de inclusão econômica (IE)</span> nas zonas rurais, com foco em <span class="highlight">sustentabilidade fiscal</span>
-            e uso eficiente dos dados do <span class="highlight">Cadastro Único</span>.
-        </p>
+                <div class="project-section">
+                    <h3>2. Expandir a inclusão econômica nas áreas rurais</h3>
+                    <p>
+                        Sugere-se a ampliação de <span class="highlight">programas de inclusão econômica (IE)</span> nas zonas rurais, com foco em <span class="highlight">sustentabilidade fiscal</span>
+                        e uso eficiente dos dados do <span class="highlight">Cadastro Único</span>.
+                    </p>
+                </div>
 
-        <h2>3. Fortalecimento da rede de serviços dos CRAS</h2>
-        <p>
-            Mesmo com a digitalização, os <span class="highlight">Centros de Referência de Assistência Social (CRAS)</span> continuam essenciais,
-            especialmente com ações como a <span class="highlight">busca ativa</span> para localizar famílias em extrema pobreza e corrigir erros nos cadastros.
-        </p>
+                <div class="project-section">
+                    <h3>3. Fortalecimento da rede de serviços dos CRAS</h3>
+                    <p>
+                        Mesmo com a digitalização, os <span class="highlight">Centros de Referência de Assistência Social (CRAS)</span> continuam essenciais,
+                        especialmente com ações como a <span class="highlight">busca ativa</span> para localizar famílias em extrema pobreza e corrigir erros nos cadastros.
+                    </p>
+                </div>
 
-        <h2>4. Redução das diferenças tributárias no mercado de trabalho</h2>
-        <p>
-            O Brasil possui uma das maiores cargas fiscais para trabalhadores formais. O relatório propõe <span class="highlight">equalizar a tributação</span>
-            entre empregados, autônomos e "PJs", além de rever o <span class="highlight">seguro-desemprego</span> com uso do <span class="highlight">FGTS</span> como fonte primária.
-        </p>
+                <div class="project-section">
+                    <h3>4. Redução das diferenças tributárias no mercado de trabalho</h3>
+                    <p>
+                        O Brasil possui uma das maiores cargas fiscais para trabalhadores formais. O relatório propõe <span class="highlight">equalizar a tributação</span>
+                        entre empregados, autônomos e "PJs", além de rever o <span class="highlight">seguro-desemprego</span> com uso do <span class="highlight">FGTS</span> como fonte primária.
+                    </p>
+                </div>
 
-        <h2>5. Reformas na previdência social</h2>
-        <p>
-            Propõe-se a <span class="highlight">reforma do benefício mínimo por idade</span> e a <span class="highlight">unificação do BPC com a aposentadoria rural</span>,
-            ajustando incentivos e melhorando a sustentabilidade fiscal para futuras gerações.
-        </p>
-    </div>
+                <div class="project-section">
+                    <h3>5. Reformas na previdência social</h3>
+                    <p>
+                        Propõe-se a <span class="highlight">reforma do benefício mínimo por idade</span> e a <span class="highlight">unificação do BPC com a aposentadoria rural</span>,
+                        ajustando incentivos e melhorando a sustentabilidade fiscal para futuras gerações.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./ods1-logo.jpg" alt="Logo ODS 1" class="footer-logo-img">
+                    <p>Erradicação da Pobreza - ODS 1</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="planocombate.html">Plano de combate</a></li>
+                        <li><a href="planopobreza.html">Projetos Futuros</a></li>
+                        <li><a href="mapa.html">Mapa de Iniciativas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-info">
+                    <h4>Sobre o projeto</h4>
+                    <p>Este site foi desenvolvido como parte de um projeto acadêmico sobre os Objetivos de Desenvolvimento Sustentável da Agenda 2030.</p>
+                    <p>Fonte oficial: <a href="https://brasil.un.org/pt-br/sdgs/1" target="_blank">ONU Brasil</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 - Projeto Acadêmico - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
